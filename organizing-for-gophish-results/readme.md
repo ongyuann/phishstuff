@@ -3,9 +3,7 @@ these scripts work by targeting only the CSV files and applying themselves to th
 - whois-ips.py: performs a whois lookup on source IP addresses in the CSV file
 - both files - please customize accordingly for any column names not found in the scripts - these assume standard GoPhish CSV outputs
 
-tl;dr: just put the CSV results in the same folder as these scripts, run the scripts, and collect the results!!
-  
-  
+## Usage:
 Step 1: Put everything (.csv results, .py scripts) in one folder
   
   
@@ -15,3 +13,6 @@ python3 add_and_fix_time.py
 python3 whois-ips.py
 ```
 Step 3: Collect the results in .TXT files!
+
+## tl;dr
+put everything into one folder and run the scripts!
